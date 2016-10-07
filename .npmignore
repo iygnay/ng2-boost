@@ -1,0 +1,10 @@
+﻿
+*.ts
+!*.d.ts
+
+bin/
+obj/
+themes/src
+
+.csproj
+.csproj.user

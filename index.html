@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="description" content="商城管理" />
+    <base href="/app/" />
+    <title>Ng2Utils</title>
+
+    <!-- styles -->
+    <link href="//at.alicdn.com/t/font_1464941400_400549.css" rel="stylesheet" />
+    <link href="//cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="//cdn.staticfile.org/twitter-bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <app-root>
+        <div class="app-loading" style="position:relative"></div>
+    </app-root>
+
+    <!-- jquery & tether & bootstrap -->
+    <script src="http://cdn.staticfile.org/jquery/2.2.1/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/tether/1.1.1/js/tether.min.js"></script>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+
+    <!-- 1. Load libraries -->
+    <!-- Polyfill(s) for older browsers -->
+    <script src="/node_modules/core-js/client/core.min.js?v=2.4.0"></script>
+    <script src="/node_modules/systemjs/dist/system.js?v=0.19.27"></script>
+    <script src="/node_modules/zone.js/dist/zone.min.js?v=0.6.12"></script>
+    <script src="/node_modules/zone.js/dist/long-stack-trace-zone.min.js?v=0.6.12"></script>
+
+    <script src="/node_modules/fastclick/lib/fastclick.js"></script>
+
+    <!-- plupload -->
+    <script src="http://cdn.staticfile.org/plupload/2.1.8/moxie.min.js"></script>
+    <script src="http://cdn.staticfile.org/plupload/2.1.8/plupload.min.js"></script>
+    <script>
+        window.buildNumber = "20160227_223";
+        window.sessionId = "34gtxl1u2hlo2v2n5yatdoqy";
+        window.module = { id: '' };
+    </script>
+
+    <!-- JiT模式 -->
+    <script src="/systemjs.config.js"></script>
+    <script>System.import('app/modules/main').catch(e => console.error.bind(e));</script>
+</body>
+</html>
