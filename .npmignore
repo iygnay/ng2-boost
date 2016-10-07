@@ -8,3 +8,6 @@ themes/src
 
 .csproj
 .csproj.user
+
+build/
+.vscode
